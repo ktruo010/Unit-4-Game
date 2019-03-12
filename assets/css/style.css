@@ -1,0 +1,287 @@
+body {
+    background-image: url('../images/arena.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#title {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin: 0px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 40px;
+    float: right;
+    margin-right: 200px;
+    height: 200px;
+    width: 300px;
+    font-size: 100px;
+}
+
+.player1 {
+    border: 1px solid blue;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.player2 {
+    border: 1px solid red;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.player3 {
+    border: 1px solid black;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.player4 {
+    border: 1px solid green;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.defender1 {
+    border: 1px solid grey;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.defender2 {
+    border: 1px solid orange;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.defender3 {
+    border: 1px solid purple;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.defender4 {
+    border: 1px solid brown;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    background-image: url("../images/kitten8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* chosen */
+
+.player1p:after {
+    border: 1px solid blue;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+.player2p:after {
+    border: 1px solid red;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+
+.player3p:after {
+    border: 1px solid black;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+
+.player4p:after {
+    border: 1px solid green;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+
+.defender1d:after {
+    border: 1px solid grey;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+
+.defender2d:after {
+    border: 1px solid orange;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+
+.defender3d:after {
+    border: 1px solid purple;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+
+.defender4d::after {
+    border: 1px solid brown;
+    width: 250px;
+    box-sizing: border-box;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    content: attr(data-dmg);
+    background-image: url("../images/kitten8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
